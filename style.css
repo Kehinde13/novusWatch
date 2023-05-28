@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: #99b3ff;
+    margin: 0;
+    padding: 48px 16px;
+}
+
+.main {
+    max-width: 400px;
+    margin:10px auto;
+    border-radius: 8px;
+    position: relative;
+    background: white;
+}
+
+.tag {
+    position: absolute;
+    top: 16px;
+    left: -8px;
+    background: #ffff99;
+    padding: 10px;
+    border-radius: 4px 16px 16px 4px;
+    font-size: 1rem;
+}
+
+.image {
+    border-radius: 8px 8px 0px 0px;;
+    width: 100%;
+    display: block;
+}
+
+.desc {
+    padding: 16px;
+}
+
+.desc span {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.desc p {
+    font-size: 1rem;
+    margin: 8px 0;
+}
+
+
+
+
